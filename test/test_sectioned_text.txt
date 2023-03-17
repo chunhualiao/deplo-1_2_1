@@ -1,0 +1,17 @@
+%%
+prima   riga sezione anonima
+seconda riga sezione anonima
+terza   riga sezione anonima
+%%input
+1 riga sezione input
+2 riga sezione input
+3 riga sezione input
+%%output
+riga a sezione output
+riga b sezione output
+riga c sezione output
+%%parameters
+%%ultima
+sezione ultima, paramters vuota
+
+

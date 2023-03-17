@@ -1,0 +1,34 @@
+digraph G {
+    compound=true;
+    subgraph cluster_1{
+        label="splitter_lib";
+        color=red;
+        penwidth=3.0;
+        node_2[label="splitter_lib.bsd_sockets"];
+        node_3[label="splitter_lib.stream_table"];
+        node_4[label="splitter_lib.controller", penwidth=2.0, shape=folder, color=blue];
+        node_5[label="splitter_lib.network", penwidth=2.0, shape=folder, color=blue];
+        node_6[label="splitter_lib.splitter"];
+        node_7[label="splitter_lib.players"];
+        node_8[label="splitter_lib.command_parser"];
+        node_10[label="splitter_lib.rtp_streams"];
+    }
+    node_9[label="real_splitter"];
+    node_3 -> node_10;
+    node_4 -> node_5;
+    node_4 -> node_7;
+    node_5 -> node_2;
+    node_6 -> node_3;
+    node_6 -> node_4;
+    node_6 -> node_5;
+    node_6 -> node_7;
+    node_6 -> node_8;
+    node_6 -> node_10;
+    node_8 -> node_2;
+    node_9 -> node_4;
+    node_9 -> node_6;
+    node_9 -> node_8;
+    node_10 -> node_4;
+    node_10 -> node_5;
+    node_10 -> node_7;
+}

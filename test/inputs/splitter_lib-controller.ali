@@ -1,0 +1,110 @@
+V "GNAT Lib v2009"
+A -fstack-check
+A -gnatA
+A -g
+A -gnatVa
+A -g
+A -gnata
+A -gnat05
+A -gnato
+A -gnatE
+A -mtune=generic
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnvnnvnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U splitter_lib.controller%b  splitter_lib-controller.adb  7ad14702 DE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+W splitter_lib.controller%s  splitter_lib-controller.adb  splitter_lib-controller.ali
+W splitter_lib.controller.talker%s  splitter_lib-controller-talker.adb  splitter_lib-controller-talker.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+U splitter_lib.controller%s  splitter_lib-controller.ads  7cd829a9 DE EE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+W splitter_lib.players%s  splitter_lib-players.ads  splitter_lib-players.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20090519112355 9c7dd3ea
+D a-charac.ads		20090519112253 506ce725
+D a-chlat1.ads		20090519112253 e9ee6d0a
+D a-except.ads		20090519112305 b54b55de
+D a-finali.ads		20090519112309 bfd2ca79
+D a-filico.ads		20090519112308 4ff02a40
+D a-stream.ads		20090519112324 34aca5be
+D a-string.ads		20090519112325 87b4230b
+D a-strmap.ads		20090519112325 5253a637
+D a-strunb.ads		20090519112326 f0549c04
+D a-tags.ads		20090519112335 bfa07446
+D a-unccon.ads		20090519112342 51e09df2
+D interfac.ads		20090519112459 a69cad5c
+D splitter_lib.ads	20100702191417 d101bf28
+D splitter_lib-controller.ads  20100322181850 f598e9d2
+D splitter_lib-controller.adb  20100322181850 06f1b47c
+D splitter_lib-controller-talker.ads  20100322181850 79ec86a8
+D splitter_lib-players.ads  20100322181850 58417f53
+D system.ads		20090519112725 83f59500
+D s-exctab.ads		20090519112537 4b7fd51d
+D s-finimp.ads		20090519112541 90fd9896
+D s-finroo.ads		20090519112541 1408f9d1
+D s-parame.ads		20090519112621 f32e56e9
+D s-secsta.ads		20090519112625 d2c357fb
+D s-soflin.ads		20090519112627 61e5c9e8
+D s-stache.ads		20090519112629 481f9e9d
+D s-stalib.ads		20090519112629 9cbc334a
+D s-stoele.ads		20090519112630 a4d57c26
+D s-stoele.adb		20090519112630 49ef69d7
+D s-stratt.ads		20090519112631 fef7c1da
+D s-traent.ads		20090519112649 a66ef260
+D s-unstyp.ads		20090519112650 c0f9fae5
+D s-valint.ads		20090519112653 d23209d2
+X 1 ada.ads
+16K9*Ada 19e8 16|3r6 34r11
+X 8 a-string.ads
+16K13*Strings 35e16 16|3r10 34r15
+X 10 a-strunb.ads
+42K21*Unbounded 431e26 16|3w18 34r23
+66V13*To_String{string} 16|49r54
+X 14 splitter_lib.ads
+1K9*Splitter_Lib 3e17 15|28r6 30r9 44r5 16|2r6 5r14 69r5
+X 15 splitter_lib-controller.ads
+30K22*Controller 14|1k9 15|44l18 44e28 16|2r19 5b27 69l18 69t28
+33V13*Start_Player{18|19R9} 33>27 16|30b13 53l8 53t20
+33i27 Player_Port{natural} 16|31b7 42r59 50r29
+37V13*Kill_Player{boolean} 37>26 16|12b13 24l8 24t19
+37i26 ID{18|17I9} 16|12b26 20r58
+42U14*Use_Port 42>24 16|59b14 67l8 67t16
+42i24 Port{natural} 16|59b24 65r24
+43X4*Server_Not_Found
+X 16 splitter_lib-controller.adb
+6b4 Destination_Defined{boolean} 14r15 36r15 61r11 66m7
+19r10 Reply{17|17R9} 22r28
+41r10 Reply{17|17R9} 44r28 46r16 49r65
+X 17 splitter_lib-controller-talker.ads
+13K33*Talker 16|2w30 19r18 20r20 22r17 41r18 42r20 44r17 65r7 17|42e35
+14A9*Word_Array(10|45R9)<integer>
+17R9*Reply 16|19r25 41r25 17|21e17
+20a10*Words{14A9} 16|46r22 49r71
+25U14*Use_Port 16|65r14
+29V13*Send_Command{17R9} 16|20r27 42r27
+34V13*Ok{boolean} 16|22r24 44r24
+X 18 splitter_lib-players.ads
+16K22*Players 15|28w19 34r34 37r31 16|12r31 32r14 45r20 49r29 18|27e25
+17I9*Player_ID<integer> 15|37r39 16|12r39 49r37
+19R9*Player_Descriptor 15|34r42 16|32r22 18|23e17
+21i10*ID{17I9} 16|49r21
+22i10*Port{natural} 16|50r21
+25r4*No_Player{19R9} 16|45r28
+

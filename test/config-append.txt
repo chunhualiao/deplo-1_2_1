@@ -1,0 +1,24 @@
+[input]
+inputs
+[ignore]
+splitter_lib.rtp
+[trim]
+
+splitter_lib.controller
+# this line should be ignored
+   # this too.  The following one also
+
+splitter_lib.network
+[style]
+dot.collapsed-shape=box3d
+dot.collapsed-fillcolor="#40e0d0"
+dot.collapsed-style=filled
+dot.default_node-shape=box
+dot.default_node-fillcolor=#f0f0c0
+dot.default_node-style=filled
+#
+# Currently (1.2.0) the following line causes an error since
+# attribute concatenation is not implemented
+#
+dot.default_node-style&=filled
+

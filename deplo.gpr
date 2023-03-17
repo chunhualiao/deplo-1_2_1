@@ -1,0 +1,41 @@
+project Deplo is
+
+   for Main use ("deplo.adb", "test_sectioned_text.adb");
+   for Object_Dir use "obj/";
+   for Source_Dirs use (".", "test");
+
+   type Mode_Type is ("debug", "release");
+
+   Mode : Mode_Type := external ("mode", "release");
+
+   package Compiler is
+      Ada_Switches := ("-O2", "-march=native", "-gnata", "-gnat05", "-fstack-check", "-gnato", "-gnatwu", "-gnatv", "-gnatf", "-gnatVa", "-gnatwa", "-gnaty", "-gnatyduxO", "-gnaty-ms");
+
+      case Mode is
+         when "debug" =>
+            for Default_Switches ("ada") use Ada_Switches & ("-g");
+         when "release" =>
+            for Default_Switches ("ada") use Ada_Switches & ("-fomit-frame-pointer");
+      end case;
+   end Compiler;
+
+   package Builder is
+      case Mode is
+         when "debug" =>
+            for Default_Switches ("ada") use ("-g", "-s");
+      end case;
+   end Builder;
+
+   package Binder is
+      for Default_Switches ("ada") use ("-E");  -- Store tracebacks in exception occurrences
+   end Binder;
+
+   package Linker is
+      case Mode is
+         when "debug" =>
+            for Default_Switches ("ada") use ("-g");
+      end case;
+   end Linker;
+
+end Deplo;
+

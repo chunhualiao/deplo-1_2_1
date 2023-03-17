@@ -1,0 +1,382 @@
+V "GNAT Lib v2009"
+A -fstack-check
+A -gnatA
+A -g
+A -gnatVa
+A -g
+A -gnata
+A -gnat05
+A -gnato
+A -gnatE
+A -mtune=generic
+P SS ZX
+R nnnvnvvnnnnnnnnvvnvnvvvvnvvnvnnvnnnnnnvnnvnnnnnnnnvvvnnvnvvnvnnnnnnnnnnnnnnnn
+
+U splitter_lib.network%b  splitter_lib-network.adb  e7442770 DE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.calendar.formatting%s  a-calfor.adb	a-calfor.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+W splitter_lib.bsd_sockets%s  splitter_lib-bsd_sockets.ads  splitter_lib-bsd_sockets.ali
+W splitter_lib.network%s  splitter_lib-network.adb  splitter_lib-network.ali
+W splitter_lib.network.self_address%s  splitter_lib-network-self_address.adb  splitter_lib-network-self_address.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_uns%s	s-imguns.adb		s-imguns.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+U splitter_lib.network%s  splitter_lib-network.ads  560b56a7 DE EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+W splitter_lib.bsd_sockets%s  splitter_lib-bsd_sockets.ads  splitter_lib-bsd_sockets.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20090519112355 9c7dd3ea
+D a-calend.ads		20090519112250 19486c30
+D a-calfor.ads		20090519112250 e9a1e10c
+D a-catizo.ads		20090519112251 5e5912b4
+D a-charac.ads		20090519112253 506ce725
+D a-chlat1.ads		20090519112253 e9ee6d0a
+D a-except.ads		20090519112305 b54b55de
+D a-finali.ads		20090519112309 bfd2ca79
+D a-filico.ads		20090519112308 4ff02a40
+D a-ioexce.ads		20090519112311 be0900a0
+D a-numeri.ads		20090519112318 1cf3e608
+D a-nudira.ads		20090519112317 56734efa
+D a-nudira.adb		20090519112317 bde16134
+D a-stream.ads		20090519112324 34aca5be
+D a-string.ads		20090519112325 87b4230b
+D a-strmap.ads		20090519112325 5253a637
+D a-strunb.ads		20090519112326 f0549c04
+D a-tags.ads		20090519112335 bfa07446
+D a-textio.ads		20090519112337 fe8af46e
+D a-unccon.ads		20090519112342 51e09df2
+D a-uncdea.ads		20090519112343 dc667e6d
+D gnat.ads		20090519112446 96410e68
+D g-socket.ads		20090519112436 27a87d46
+D interfac.ads		20090519112459 a69cad5c
+D i-c.ads		20090519112452 bc3ef662
+D i-cstrea.ads		20090519112454 e1e064a9
+D splitter_lib.ads	20100702191417 d101bf28
+D splitter_lib-bsd_sockets.ads  20100322181850 abb79114
+D splitter_lib-network.ads  20100702205716 bf50b1b5
+D splitter_lib-network.adb  20100703072835 2450ab37
+D splitter_lib-network-self_address.ads  20100322181850 b7dcb031
+D system.ads		20090519112725 83f59500
+D s-arit64.ads		20090519112524 ded5f422
+D s-assert.ads		20090519112525 4c8d26a1
+D s-conca2.ads		20090519112533 3d28f3da
+D s-conca5.ads		20090519112534 e435dfcb
+D s-crtl.ads		20090519112535 89a96a96
+D s-exctab.ads		20090519112537 4b7fd51d
+D s-ficobl.ads		20090519112540 8bb681e5
+D s-finimp.ads		20090519112541 90fd9896
+D s-finroo.ads		20090519112541 1408f9d1
+D s-imgint.ads		20090519112547 f77d133c
+D s-imguns.ads		20090519112549 f4154b29
+D s-oscons.ads		20090519224724 5f0c1874
+D s-parame.ads		20090519112621 f32e56e9
+D s-secsta.ads		20090519112625 d2c357fb
+D s-soflin.ads		20090519112627 61e5c9e8
+D s-stache.ads		20090519112629 481f9e9d
+D s-stalib.ads		20090519112629 9cbc334a
+D s-stoele.ads		20090519112630 a4d57c26
+D s-stoele.adb		20090519112630 49ef69d7
+D s-stratt.ads		20090519112631 fef7c1da
+D s-traent.ads		20090519112649 a66ef260
+D s-unstyp.ads		20090519112650 c0f9fae5
+D s-valint.ads		20090519112653 d23209d2
+D s-wchcon.ads		20090519112659 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 29|16r6 16r40 17r6 17r40 18r6 30|2r6 3r6 4r6 5r6 6r6 7r6 7r50
+. 8r6 9r6 10r5 58r13 200r16 201r11 273r13 287r13 371r16 372r11 427r11 427r16
+. 436r28 456r13
+X 2 a-calend.ads
+39K13*Calendar 361e17 29|17w10 107r50 112r50 30|9r10 10r9 199r50 200r20 215r22
+. 234r42 369r24 371r20 383r22 396r42
+41I9*Time 29|107r59 112r59 30|199r59 200r29 369r33 371r29
+55V13*Clock{41I9} 30|215r31 234r51 383r31 396r51
+100V13*"-"{duration} 30|234r40 396r40
+107V13*"<="{boolean} 30|215r19 383r19
+X 3 a-calfor.ads
+24K22*Formatting 215e28 30|9w19 10r18
+X 5 a-charac.ads
+16K13*Characters 18e19 30|5r10 429r33 429r57 488r18 490r31 491r35 492r18
+X 6 a-chlat1.ads
+20K24*Latin_1 298e27 30|5w21 429r44 429r68 488r29 490r42 491r46 492r29
+37e4*LF{character} 30|429r76 490r50 492r37
+40e4*CR{character} 30|429r52 488r37 491r54
+X 7 a-except.ads
+56K13*Exceptions 354e19 30|4w10 201r15 372r15
+110V13*Exception_Information{string} 30|264r49 416r49
+X 10 a-ioexce.ads
+16K13*IO_Exceptions 28e22 29|18w10 30|467r16
+24X4*End_Error 30|467r30
+X 11 a-numeri.ads
+16K13*Numerics 32e17 30|8r10 58r17
+X 12 a-nudira.ads
+53k22*Discrete_Random 117e33 30|8w19 58r26
+66R9 Generator 30|86r30[57]
+68V13 Random{integer} 30|91r32[57]
+70U14 Reset 30|89r19[57]
+X 14 a-stream.ads
+39K13*Streams 72e16 29|16w10 16r44 60r27 191r17 30|427r20
+45M9*Stream_Element 30|456r49 532r14
+47I9*Stream_Element_Offset<integer> 29|60r35 30|208r20 340r15 341r15 342r15
+. 379r20 435r13 435r48 441r19 460r16 512r16 513r16 527r11
+54A9*Stream_Element_Array(45M9)<47I9> 29|63r45 74r28 191r25 30|26r45 432r33
+. 434r25 459r16 508r28
+X 15 a-string.ads
+16K13*Strings 35e16 30|7r10 7r54
+X 17 a-strunb.ads
+42K21*Unbounded 431e26 30|7w18 7r62
+45R9*Unbounded_String 398e14 30|482r16 523r16
+48r4*Null_Unbounded_String{45R9} 30|482r36 523r36
+66V13*To_String{string} 30|499r14 540r14
+89V13*"&"{45R9} 30|526r9 527r9 528r9 532r12 534r30 538r24
+97V13*"&"{45R9} 30|491r33 491r57 495r33
+X 19 a-textio.ads
+51K13*Text_IO 509e16 30|3w10 264r10 416r10 469r10
+266U14*Put_Line 30|264r18 416r18 469r18
+X 20 a-unccon.ads
+17+9 Source 30|456r39
+18+9 Target 30|457r39
+20v14*Unchecked_Conversion 30|6w10 436r32 456r17
+X 21 a-uncdea.ads
+17+9 Object 30|273r41 287r41
+18P9 Name(17+9) 30|274r41 288r41
+20u15*Unchecked_Deallocation 30|2w10 273r17 287r17
+X 23 g-socket.ads
+415I9*Socket_Type 29|171r33 175r57 186r46 187r46 30|63r19 153r26 178r16 308r16
+. 331r33 344r42 443r30 462r33
+422R9*Selector_Type 30|120r30 136r36 205r20 273r51 287r51 376r20
+423P9*Selector_Access(422R9) 29|172r33 181r35 30|274r51 288r51
+442E9*Selector_Status 442e57 30|206r20 377r20
+442n29*Completed{442E9} 30|238r15 400r15
+442n40*Expired{442E9} 30|256r15 408r15
+442n49*Aborted{442E9} 30|256r25 408r25
+449X4*Socket_Error 29|23r49
+461n25*Family_Inet{461E9} 30|65r48 71r35 110r45 115r32 150r45 160r32 179r45
+. 184r32 309r45 314r32
+466n23*Socket_Stream{466E9} 30|315r32
+466n38*Socket_Datagram{466E9} 30|72r35 116r32 161r32 185r32
+478I9*Port_Type<integer> 30|67r48 112r45 152r45 181r45 311r45
+486R9*Inet_Addr_Type 1164e14 29|27r42 30|18r57 36r48 105r26 174r26 304r48
+503R9*Sock_Addr_Type 506e14 30|65r19 110r16 150r16 179r16 207r20 309r16 378r20
+503e25*Family{461E9} 30|65r38 110r35 150r35 179r35 309r35
+504r7*Addr{486R9} 30|66r38 111r35 151r35 180r35 310r35
+505i7*Port{478I9} 30|67r38 112r35 152r35 181r35 311r35
+522V13*Inet_Addr{486R9} 29|35r33
+803U14*Create_Socket 30|70r10 114r7 159r7 183r7 313r7
+804i7 Socket{415I9} 30|70r25 114r22 159r22 183r22 313r22
+805e7 Family{461E9} 30|71r25 115r22 160r22 184r22 314r22
+806e7 Mode{466E9} 30|72r25 116r22 161r22 185r22 315r22
+833U14*Bind_Socket 30|75r13 118r7 163r7
+839U14*Close_Socket 30|81r10 276r7 291r10 331r7
+842U14*Connect_Socket 30|187r7 319r7
+892U14*Receive_Socket 30|462r7
+893i7 Socket{415I9} 30|462r23
+894a7 Item{14|54A9} 30|463r23
+895i7 Last{14|47I9} 30|464r23
+904U14*Receive_Socket 30|250r13 402r13
+905i7 Socket{415I9} 30|250r29 402r29
+906a7 Item{14|54A9} 30|252r29 404r29
+907i7 Last{14|47I9} 30|253r29 405r29
+908r7 From{503R9} 30|251r29 403r29
+948U14*Send_Socket 30|344r7 443r7
+949i7 Socket{415I9} 30|344r20 443r20
+950a7 Item{14|54A9} 30|345r20 444r20
+951i7 Last{14|47I9} 30|346r20 445r20
+1012R9*Socket_Set_Type 1146e14 30|203r20 204r20 374r20 375r20
+1025U14*Empty 30|223r7 224r7 260r7 261r7 390r7 391r7 412r7 413r7
+1035V13*Is_Set{boolean} 30|240r19 246r28
+1040U14*Set 30|229r10 392r7
+1067U14*Create_Selector 30|121r7 138r7
+1070U14*Close_Selector 30|277r7 296r7
+1076U14*Check_Selector 30|233r7 395r7
+X 27 splitter_lib.ads
+1K9*Splitter_Lib 3e17 29|20r6 22r9 195r6 30|12r6 13r6 15r14 546r5
+X 28 splitter_lib-bsd_sockets.ads
+4K22*BSD_Sockets=4:47 29|20w19 23r37 27r30 35r21 171r21 172r21 175r45 181r23
+. 186r34 187r34 30|12w19 16r8 18r45 36r36 105r14 153r14 174r14 304r36 331r21
+. 344r30
+X 29 splitter_lib-network.ads
+22K22*Network 27|1k9 29|195l19 195e26 30|13r19 15b27 546l18 546t25
+23X4*Socket_Error 30|77r18
+27R12*Inet_Addr_Type{23|486R9} 34r28 41r38 92r31 99r36 132r32 151r36 30|147r36
+34r4*Localhost{27R12} 30|66r48 543r24
+40V13*Self_IP_Address{27R12} 40>30 30|35b13 44l8 44t23
+40i30 Which{natural} 30|35b30 39r10 43r27
+47V13*Free_UDP_Port{natural} 47>28 30|51b13 98l8 98t21
+47i28 N_Trials{natural} 30|51b28 90r21
+50X4*Port_Unavailable 30|97r13
+58R9*Packet_Buffer 63r23 66r23 69r32 75r31 79r24 106r50 110r50 137r27 189c9
+. 193e17 30|26r23 197r50 338r27 355r16 368r24 502r23 509r31 511r16 520r24
+60I12*Packet_Size{14|47I9} 66r45 191r47 192r17 30|502r45
+63V13*Data{14|54A9} 63>19 30|26b13 29l8 29t12
+63r19 X{58R9} 30|26b19 28r14 28r21 28r37 28r52
+66V13*Size{60I12} 66>19 30|502b13 506l8 506t12
+66r19 X{58R9} 30|502b19 505r14
+69V13*Is_Empty{boolean} 69>23 30|354b13 360l8 360t16
+69r23 Packet{58R9} 30|355b7 359r14
+74V13*To_Packet{58R9} 74>24 30|508b13 518l8 518t17
+74a24 X{14|54A9} 30|508b24 513r48 515r35 516r22
+79V13*Image{string} 79>20 30|520b13 541l8 541t13
+79r20 X{58R9} 30|520b20 527r40 530r21 532r36 532r44 533r18
+86R9*Input_UDP_Socket 94r31 105r50 118r32 169c9 173e17 30|107r14 109r16 271r32
+. 367r24
+88R9*UDP_Socket_List 96r29 98r36 109r50 120r32 177c9 182e17 30|131r13 132r16
+. 146r36 196r50 285r32
+92V13*UDP_Input{86R9} 92>24 93>24 30|104b13 124l8 124t17
+92r24 Host{27R12} 30|105b7 111r45
+93i24 Port{natural} 30|106b7 112r55
+96V13*UDP_List{88R9} 30|130b13 140l8 140t16
+98U14*Append 98=22 99>22 100>22 101<22 30|146b14 167l8 167t14
+98r22 List{88R9} 30|146b22 155r10 155r28 164r14 165m7 165r21 166m7 166r26
+99r22 Host{27R12} 30|147b22 151r45
+100i22 Port{natural} 30|148b22 152r56
+101i22 Src{natural} 30|149b22 164m7
+105U14*Read_With_Timeout 105=33 106<33 107>33 30|366b14 417l8 417t25
+105r33 From{86R9} 30|367b7 392r24 395r23 402r39
+106r33 To{58R9} 30|368b7 381m7 404m39 407m13 407r31
+107i33 Timeout{2|41I9} 30|369b7 383r11 396r32
+109U14*Read_With_Timeout 109=33 110<33 111<33 112>33 30|196b14 265l8 265t25
+109r33 From{88R9} 30|196b33 226r16 226r38 229r27 233r23 239r22 239r44 240r39
+. 246r48 250r39
+110r33 To{58R9} 30|197b33 213m7 252m39 255m13 255r31
+111i33 Source{natural} 30|198b33 216m10 241m19 246r62 250r53
+112i33 Timeout{2|41I9} 30|199b33 215r11 234r32
+114i4*No_Source{natural} 184c4
+118U14*Close 118=21 30|271b14 279t7
+118r21 S{86R9} 30|271b21 276r21 277r23 278m12
+120U14*Close 120=21 30|285b14 298l8 298t13
+120r21 S{88R9} 30|285b21 290r16 290r35 291r24 294m7 294r23 296r23 297m12
+127I9*Output_UDP_Socket 134r32 138r27 141r25 186c9 30|176r14 189r14 329r25
+. 339r27
+132V13*UDP_Output{127I9} 132>25 133>25 30|173b13 190l8 190t18
+132r25 Host{27R12} 30|174b7 180r45
+133i25 Port{natural} 30|175b7 181r55
+137U14*Send 137>20 138>20 30|338b14 347l8 347t12
+137r20 What{58R9} 30|338b20 340r40 341r48 345r30
+138i20 Dst{127I9} 30|339b20 344r55
+141U14*Close 141>21 30|329b14 332t7
+141i21 S{127I9} 30|329b21 331r46
+147I9*TCP_Stream 153r36 157r32 161r30 165r30 187c9 30|306r36 321r14 424r32
+. 452r30 479r30
+151V13*New_TCP_Stream{147I9} 151>29 152>29 30|304b13 322l8 322t22
+151r29 Host{27R12} 30|304b29 310r45
+152i29 Port{natural} 30|305b29 311r55
+157U14*Send_Line 157>25 158>25 30|424b14 446l8 446t17
+157i25 To{147I9} 30|424b25 443r43
+158s25 Line{string} 30|425b25 444r40
+161V13*Get_Line{string} 161>23 30|479b13 500l8 500t16
+161i23 From{147I9} 30|479b23 486r26 489r32
+165V13*Get_Char{character} 165>23 30|452b13 472l8 472t16 486r16 489r22
+165i23 From{147I9} 30|452b23 462r46
+171i10*Socket{23|415I9} 30|114m39 118r27 276r23 392r29 402r44
+172p10*Selector{23|423P9} 30|120m14 121r31 277r25 278m14 395r28
+175A9 Socket_Array(23|415I9)<integer> 179r23 184r39 30|135r32
+179a10*Sockets{175A9} 30|134r18 155r33 165m12 226r21 229r32 239r27 240r44
+. 246r53 250r44 290r18 291r26 294r25
+180i10*First_Free{natural} 30|135r18 155r15 164r19 165r26 166m12 166r31 226r43
+. 239r49 290r37 294m9
+181p10*Selector{23|423P9} 30|136r18 138r31 233r28 296r25 297m14
+191a10*Data{14|54A9} 30|28r16 28r23 28r39 252m42 255r34 340r45 345r35 404m42
+. 407r34 512r48 515r14 532r38 532r46
+192i10*Size{60I12} 30|28r54 213m10 255m16 341r53 359r21 381m10 407m16 505r16
+. 516m14 527r42 530r23 533r20
+X 30 splitter_lib-network.adb
+18a4 My_Addresses(23|486R9) 43r14 543m4 544m4
+19i4 Last_Address_Index{natural} 39r18 545m4
+55I15 Available_Port{natural} 58r43 60r32
+57K15 Random_Port[12|53] 86r18 89r7 91r20
+60V16 Is_Free{boolean} 60b16 60>25 83l11 83t18 92r13
+60i25 Port{55I15} 67r59
+63i10 Socket{23|415I9} 70m35 75r26 81r24
+64b10 Result{boolean} 69m10 78m16 82r17
+65r10 Addr{23|503R9} 75r34
+86r7 Gen{12|66R9[57]} 89r26 91r40
+87i7 Result{natural} 91m10 92r22 93r20
+90i11 I{integer}
+109r7 Result{29|86R9} 114m32 118r20 120m7 121r24 123r14
+110r7 Addr{23|503R9} 118r35
+132r7 Result{29|88R9} 134m7 138r24 139r14
+150r7 Addr{23|503R9} 163r26
+153i7 Sock{23|415I9} 159m32 163r20 165r41
+178i7 Result{23|415I9} 183m32 187r23 189r32
+179r7 Addr{23|503R9} 187r31
+203r7 R_Sock_Set{23|1012R9} 223m14 229m15 233m42 240r27 246r36 260m13
+204r7 W_Sock_Set{23|1012R9} 224m14 233m54 261m13
+205r7 Selector{23|422R9}
+206e7 Status{23|442E9} 234m23 237r12
+207r7 Peer_Addr{23|503R9} 251m39
+208i7 Last{14|47I9} 253m39 255r24
+226i11 I{integer} 229r41
+239i17 I{integer} 240r53 241r29
+263r12 e{7|69R9} 264r72
+272U17 Free[21|20] 278r7
+286U17 Free[21|20] 297r7
+290i11 I{integer} 291r35
+308i7 Result{23|415I9} 313m32 319r23 321r25
+309r7 Addr{23|503R9} 319r31
+340i7 First{14|47I9} 341r40 345r41
+341i7 Last{14|47I9} 345r50
+342i7 Sent{14|47I9} 346m30
+374r7 R_Sock_Set{23|1012R9} 390m14 392m12 395m42 412m13
+375r7 W_Sock_Set{23|1012R9} 391m14 395m54 413m13
+376r7 Selector{23|422R9}
+377e7 Status{23|442E9} 396m23 399r12
+378r7 Peer_Addr{23|503R9} 403m39
+379i7 Last{14|47I9} 405m39 407r24
+415r12 e{7|69R9} 416r72
+429a7 CRLF{string} 444r47
+431V16 To_Array{14|54A9} 431b16 431>26 439l11 439t19 444r30
+431s26 S{string} 433r33 435r36 435r71 438r23
+433A15 Source{string}<integer> 436r54
+434A15 Result{14|54A9}<14|47I9> 436r62
+436V16 To_A[20|20]{14|54A9} 438r17
+441i7 Last_Sent{14|47I9} 445m30
+455V16 To_Char[20|20]{character} 469r41 470r17
+459a7 Buffer{14|54A9} 463m33 466r18 469r49 469r56 470r25 470r32
+460i7 Last{14|47I9} 464m33 466r11
+482r7 Buffer{17|45R9} 491m16 491r26 495m16 495r26 499r24
+483e7 Ch{character} 486m10 487r15 489m16 490r26 491r59 495r35
+511r7 Result{29|58R9} 512r41 515m7 516m7 517r14
+512i7 From{14|47I9} 513r41 515r20
+513i7 To{14|47I9} 515r28
+523r7 Result{17|45R9} 525m7 525r17 531m10 531r20 534m13 534r23 538m7 538r17
+. 540r24
+530i11 I<integer> 532r59 533r13
+X 31 splitter_lib-network-self_address.ads
+12K30*Self_Address 30|13w27 544r24 31|41e38
+35V13*My_Address{23|486R9} 30|544r37
+

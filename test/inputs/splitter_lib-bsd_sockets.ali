@@ -1,0 +1,57 @@
+V "GNAT Lib v2009"
+A -fstack-check
+A -gnatA
+A -g
+A -gnatVa
+A -g
+A -gnata
+A -gnat05
+A -gnato
+A -gnatE
+A -mtune=generic
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U splitter_lib.bsd_sockets%s  splitter_lib-bsd_sockets.ads  5d1e537a DE NE OO
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+
+D ada.ads		20090519112355 9c7dd3ea
+D a-except.ads		20090519112305 b54b55de
+D a-finali.ads		20090519112309 bfd2ca79
+D a-filico.ads		20090519112308 4ff02a40
+D a-stream.ads		20090519112324 34aca5be
+D a-tags.ads		20090519112335 bfa07446
+D a-unccon.ads		20090519112342 51e09df2
+D a-uncdea.ads		20090519112343 dc667e6d
+D gnat.ads		20090519112446 96410e68
+D g-socket.ads		20090519112436 27a87d46
+D interfac.ads		20090519112459 a69cad5c
+D i-c.ads		20090519112452 bc3ef662
+D splitter_lib.ads	20100702191417 d101bf28
+D splitter_lib-bsd_sockets.ads  20100322181850 abb79114
+D system.ads		20090519112725 83f59500
+D s-exctab.ads		20090519112537 4b7fd51d
+D s-finimp.ads		20090519112541 90fd9896
+D s-finroo.ads		20090519112541 1408f9d1
+D s-oscons.ads		20090519224724 5f0c1874
+D s-parame.ads		20090519112621 f32e56e9
+D s-secsta.ads		20090519112625 d2c357fb
+D s-soflin.ads		20090519112627 61e5c9e8
+D s-stache.ads		20090519112629 481f9e9d
+D s-stalib.ads		20090519112629 9cbc334a
+D s-stoele.ads		20090519112630 a4d57c26
+D s-stoele.adb		20090519112630 49ef69d7
+D s-stratt.ads		20090519112631 fef7c1da
+D s-traent.ads		20090519112649 a66ef260
+D s-unstyp.ads		20090519112650 c0f9fae5
+X 9 gnat.ads
+37K9*GNAT 40e9 14|2r6 4r42
+X 10 g-socket.ads
+61K14*Sockets 1222e17 14|2w11 4r47
+X 13 splitter_lib.ads
+1K9*Splitter_Lib 3e17 14|4r9
+X 14 splitter_lib-bsd_sockets.ads
+4K22*BSD_Sockets=4:47
+

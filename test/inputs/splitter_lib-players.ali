@@ -1,0 +1,30 @@
+V "GNAT Lib v2009"
+A -fstack-check
+A -gnatA
+A -g
+A -gnatVa
+A -g
+A -gnata
+A -gnat05
+A -gnato
+A -gnatE
+A -mtune=generic
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U splitter_lib.players%s  splitter_lib-players.ads  8940c07b DE NE OO PK
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+
+D splitter_lib.ads	20100702191417 d101bf28
+D splitter_lib-players.ads  20100322181850 58417f53
+D system.ads		20090519112725 83f59500
+X 1 splitter_lib.ads
+1K9*Splitter_Lib 3e17 2|16r9 27r5
+X 2 splitter_lib-players.ads
+16K22*Players 1|1k9 2|27l18 27e25
+17I9*Player_ID<integer> 21r17 25r55
+19R9*Player_Descriptor 23e17 25r25
+21i10*ID{17I9} 25r47
+22i10*Port{natural} 26r47
+25r4*No_Player{19R9}
+

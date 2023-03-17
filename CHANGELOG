@@ -1,0 +1,25 @@
+1.2.1 2012-07-06
+* Removed a bug that happened only under Windows (usual '/' and '\' stuff...)
+* Removed few style warnings
+
+1.2.0 2012-06-28
+* Added new [input] section to the config file
+* Now the config file can be specified with the '@' shorthand
+* Now it is possible to change global graph style attributes
+* Removed a bug that did not ignore in config files empty comment lines (i.e., '#' immediately followed by a newline)
+* Added check that the input list is not empty
+
+1.1.0 2012-06-16 
+
+* style= option now active
+* added config= option to read configuration files
+
+1.0.1 2012-06-11
+
+* Disabled the test script since it could give false negatives
+* Added the possibility of specifying "input" more than once
+* Added new option "style." It is still non-operative, though.
+
+1.0.0 2012-06-09 
+
+Well, this is the first release...

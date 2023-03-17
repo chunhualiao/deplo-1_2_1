@@ -1,0 +1,36 @@
+#
+# Example of config file to be used with AWS.  Run deplo in the
+# root dir of the AWS distribution using this file as config file
+# ('config=' option)
+#
+[input]
+.build/native/release/relocatable/obj/src
+.build/native/release/relocatable/obj/include
+.build/native/release/relocatable/obj/ssl
+[trim]
+aws.services.split_pages
+aws.services.dispatchers
+aws.containers
+aws.net
+aws.resources
+aws.smtp
+aws.jabber
+aws.url
+soap
+templates_parser
+
+[ignore]
+zlib
+memory_streams
+aws.utils
+aws.translator
+aws.default
+aws.os_lib
+
+[style]
+
+#
+# Add some vertical space
+#
+dot.graph-ranksep=2
+

@@ -1,0 +1,21 @@
+V "GNAT Lib v2009"
+A -fstack-check
+A -gnatA
+A -g
+A -gnatVa
+A -g
+A -gnata
+A -gnat05
+A -gnato
+A -gnatE
+A -mtune=generic
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U splitter_lib%s	splitter_lib.ads	d101bf28 DE NE OO PK
+
+D splitter_lib.ads	20100702191417 d101bf28
+D system.ads		20090519112725 83f59500
+X 1 splitter_lib.ads
+1K9*Splitter_Lib 3l5 3e17
+

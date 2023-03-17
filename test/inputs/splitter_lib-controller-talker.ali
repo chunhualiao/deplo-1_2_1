@@ -1,0 +1,154 @@
+V "GNAT Lib v2009"
+A -fstack-check
+A -gnatA
+A -g
+A -gnatVa
+A -g
+A -gnata
+A -gnat05
+A -gnato
+A -gnatE
+A -mtune=generic
+P SS ZX
+R nnnnnnnnnnnnnnnvnnvnnnnvnnvnvnnvnnnnnnvnnvnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnn
+
+U splitter_lib.controller.talker%b  splitter_lib-controller-talker.adb  91d2d609 DE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+W splitter_lib.controller%s  splitter_lib-controller.adb  splitter_lib-controller.ali
+W splitter_lib.network%s  splitter_lib-network.adb  splitter_lib-network.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+U splitter_lib.controller.talker%s  splitter_lib-controller-talker.ads  7c20f37e DE EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W splitter_lib.controller%s  splitter_lib-controller.adb  splitter_lib-controller.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20090519112355 9c7dd3ea
+D a-calend.ads		20090519112250 19486c30
+D a-charac.ads		20090519112253 506ce725
+D a-chlat1.ads		20090519112253 e9ee6d0a
+D a-except.ads		20090519112305 b54b55de
+D a-finali.ads		20090519112309 bfd2ca79
+D a-filico.ads		20090519112308 4ff02a40
+D a-ioexce.ads		20090519112311 be0900a0
+D a-stream.ads		20090519112324 34aca5be
+D a-string.ads		20090519112325 87b4230b
+D a-strmap.ads		20090519112325 5253a637
+D a-strunb.ads		20090519112326 f0549c04
+D a-tags.ads		20090519112335 bfa07446
+D a-unccon.ads		20090519112342 51e09df2
+D a-uncdea.ads		20090519112343 dc667e6d
+D gnat.ads		20090519112446 96410e68
+D g-socket.ads		20090519112436 27a87d46
+D interfac.ads		20090519112459 a69cad5c
+D i-c.ads		20090519112452 bc3ef662
+D splitter_lib.ads	20100702191417 d101bf28
+D splitter_lib-bsd_sockets.ads  20100322181850 abb79114
+D splitter_lib-controller.ads  20100322181850 f598e9d2
+D splitter_lib-controller-talker.ads  20100322181850 79ec86a8
+D splitter_lib-controller-talker.adb  20100322181850 a73a7d10
+D splitter_lib-network.ads  20100702205716 bf50b1b5
+D splitter_lib-players.ads  20100322181850 58417f53
+D system.ads		20090519112725 83f59500
+D s-conca2.ads		20090519112533 3d28f3da
+D s-conca3.ads		20090519112533 a208bec3
+D s-exctab.ads		20090519112537 4b7fd51d
+D s-finimp.ads		20090519112541 90fd9896
+D s-finroo.ads		20090519112541 1408f9d1
+D s-imgint.ads		20090519112547 f77d133c
+D s-oscons.ads		20090519224724 5f0c1874
+D s-parame.ads		20090519112621 f32e56e9
+D s-secsta.ads		20090519112625 d2c357fb
+D s-soflin.ads		20090519112627 61e5c9e8
+D s-stache.ads		20090519112629 481f9e9d
+D s-stalib.ads		20090519112629 9cbc334a
+D s-stoele.ads		20090519112630 a4d57c26
+D s-stoele.adb		20090519112630 49ef69d7
+D s-stratt.ads		20090519112631 fef7c1da
+D s-traent.ads		20090519112649 a66ef260
+D s-unstyp.ads		20090519112650 c0f9fae5
+D s-valint.ads		20090519112653 d23209d2
+X 1 ada.ads
+16K9*Ada 19e8 23|11r6 11r51 24|3r6 3r51
+X 10 a-string.ads
+16K13*Strings 35e16 23|11r10 11r55 24|3r10 3r55
+X 12 a-strunb.ads
+42K21*Unbounded 431e26 23|11w18 11r63 24|3w18 3r63
+45R9*Unbounded_String 398e14 23|14r51 24|13r26 16r41
+60V13*To_Unbounded_String{45R9} 24|17r30
+66V13*To_String{string} 24|14r30
+X 20 splitter_lib.ads
+1K9*Splitter_Lib 3e17 23|13r9 42r5 24|2r6 5r14 112r5
+X 22 splitter_lib-controller.ads
+30K22*Controller 20|1k9 22|44e28 23|13r22 42r18 24|5r27 112r18
+43X4*Server_Not_Found 24|109r16
+X 23 splitter_lib-controller-talker.ads
+13K33*Talker 22|30k22 23|42l29 42e35 24|5b38 112l29 112t35
+14A9*Word_Array(12|45R9)<integer> 20r23 24|21r16
+17R9*Reply 17d15 21e17 31r34 34r21 24|10r33 55r14 68r17 80r14 93r11
+17i15*N_Words{natural} 20r40 24|55r21
+19i10*Error_Code{natural} 24|56r21 97r16
+20a10*Words{14A9} 24|57r21
+25U14*Use_Port 25>24 24|104b14 110l8 110t16
+25i24 Port{natural} 24|104b24 106r60
+29V13*Send_Command{17R9} 29>27 30>27 24|68r26 77b13 86l8 86t20
+29s27 Command{string} 24|78b7 82r30
+30i27 Parameter{natural} 24|79b7 82r60
+34V13*Ok{boolean} 34>17 24|92b13 98l8 98t10
+34r17 X{17R9} 24|93b7 97r14
+38U14*Send_Command 38>28 39>28 24|64b14 71l8 71t20
+38s28 Command{string} 24|65b7 68r39
+39i28 Parameter{natural} 24|66b7 68r48
+X 24 splitter_lib-controller-talker.adb
+6i4 Server{25|147I9} 84r26 85r43 106m7
+7i4 No_Error{natural} 97r29
+9V13 Parse_Reply{23|17R9} 9b13 9>26 58l8 58t19 85r14
+9s26 S{string} 21r33 25r32
+13V16 To_S=14:30{string} 56r50
+13r22 X{12|45R9}
+16V16 To_U=17:30{12|45R9} 52r32
+16s22 X{string}
+21a7 Buffer{23|14A9} 52m10 56r55 57r35
+25a7 To_Be_Parsed=25:34{string} 31r17 33r23 34r26 35r21 39r29 44r16 52r37
+27i7 Word_Start{natural} 41m10 52r50
+28i7 Cursor{natural} 31m7 33r13 34r16 35r35 36m13 36r23 39r20 41r24 44r30
+. 45m13 45r23 52r64
+29i7 Word_Count{natural} 32m7 51m10 51r24 52r17 55r35 57r48
+68r7 Ignored{23|17R9}
+82a7 To_Be_Sent=82:44{string} 84r34
+X 25 splitter_lib-network.ads
+22K22*Network 24|2w19 6r13 84r7 85r26 106r17 106r41 108r12 25|195e26
+23X4*Socket_Error 24|108r20
+34r4*Localhost{27R12} 24|106r49
+147I9*TCP_Stream 24|6r21
+151V13*New_TCP_Stream{147I9} 24|106r25
+157U14*Send_Line 24|84r15
+161V13*Get_Line{string} 24|85r34
+

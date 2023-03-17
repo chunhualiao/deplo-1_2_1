@@ -1,0 +1,11 @@
+line 1 in anonymous
+line 2 in anonymous
+% Comment, you should not see this
+    % Comment, you should see this only if comments are not trimmed
+  line 3 in anonymous
+[ style  ]
+line 1 in style
+   line 2 in style   
+[empty]
+[last]
+line 1 in last, empty section is empty

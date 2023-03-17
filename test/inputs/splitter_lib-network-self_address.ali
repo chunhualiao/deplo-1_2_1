@@ -1,0 +1,185 @@
+V "GNAT Lib v2009"
+A -fstack-check
+A -gnatA
+A -g
+A -gnatVa
+A -g
+A -gnata
+A -gnat05
+A -gnato
+A -gnatE
+A -mtune=generic
+P SS ZX
+R nnnvnvnvnnnnnnnvnnvnnnvvnnvnvnnvnnnnnnvnnvnnnnnnnnnnvnnvnnvnvnnnnnnnnnnnnnnnn
+
+U splitter_lib.network.self_address%b  splitter_lib-network-self_address.adb  e42df47e DE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+W splitter_lib.bsd_sockets%s  splitter_lib-bsd_sockets.ads  splitter_lib-bsd_sockets.ali
+W splitter_lib.network%s  splitter_lib-network.adb  splitter_lib-network.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U splitter_lib.network.self_address%s  splitter_lib-network-self_address.ads  536f0c94 DE EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W splitter_lib%s	splitter_lib.ads	splitter_lib.ali
+W splitter_lib.bsd_sockets%s  splitter_lib-bsd_sockets.ads  splitter_lib-bsd_sockets.ali
+W splitter_lib.network%s  splitter_lib-network.adb  splitter_lib-network.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20090519112355 9c7dd3ea
+D a-calend.ads		20090519112250 19486c30
+D a-charac.ads		20090519112253 506ce725
+D a-chlat1.ads		20090519112253 e9ee6d0a
+D a-except.ads		20090519112305 b54b55de
+D a-finali.ads		20090519112309 bfd2ca79
+D a-filico.ads		20090519112308 4ff02a40
+D a-ioexce.ads		20090519112311 be0900a0
+D a-numeri.ads		20090519112318 1cf3e608
+D a-nudira.ads		20090519112317 56734efa
+D a-nudira.adb		20090519112317 bde16134
+D a-stream.ads		20090519112324 34aca5be
+D a-string.ads		20090519112325 87b4230b
+D a-strmap.ads		20090519112325 5253a637
+D a-strunb.ads		20090519112326 f0549c04
+D a-tags.ads		20090519112335 bfa07446
+D a-textio.ads		20090519112337 fe8af46e
+D a-unccon.ads		20090519112342 51e09df2
+D a-uncdea.ads		20090519112343 dc667e6d
+D gnat.ads		20090519112446 96410e68
+D g-socket.ads		20090519112436 27a87d46
+D interfac.ads		20090519112459 a69cad5c
+D i-c.ads		20090519112452 bc3ef662
+D i-cstrin.ads		20090519112455 d0370103
+D i-cstrea.ads		20090519112454 e1e064a9
+D splitter_lib.ads	20100702191417 d101bf28
+D splitter_lib-bsd_sockets.ads  20100322181850 abb79114
+D splitter_lib-network.ads  20100702205716 bf50b1b5
+D splitter_lib-network-self_address.ads  20100322181850 b7dcb031
+D splitter_lib-network-self_address.adb  20100322181850 10847ac7
+D system.ads		20090519112725 83f59500
+D s-crtl.ads		20090519112535 89a96a96
+D s-exctab.ads		20090519112537 4b7fd51d
+D s-ficobl.ads		20090519112540 8bb681e5
+D s-finimp.ads		20090519112541 90fd9896
+D s-finroo.ads		20090519112541 1408f9d1
+D s-oscons.ads		20090519224724 5f0c1874
+D s-parame.ads		20090519112621 f32e56e9
+D s-secsta.ads		20090519112625 d2c357fb
+D s-soflin.ads		20090519112627 61e5c9e8
+D s-stache.ads		20090519112629 481f9e9d
+D s-stalib.ads		20090519112629 9cbc334a
+D s-stoele.ads		20090519112630 a4d57c26
+D s-stoele.adb		20090519112630 49ef69d7
+D s-stratt.ads		20090519112631 fef7c1da
+D s-traent.ads		20090519112649 a66ef260
+D s-unstyp.ads		20090519112650 c0f9fae5
+D s-wchcon.ads		20090519112659 30c48dc1
+X 1 ada.ads
+16K9*Ada 19e8 29|10r6 10r50 30|4r6 4r50 5r6 5r50 6r6 7r6 133r13
+X 9 a-numeri.ads
+16K13*Numerics 32e17 30|6r10
+X 10 a-nudira.ads
+53k22*Discrete_Random 117e33 30|6w19
+X 13 a-string.ads
+16K13*Strings 35e16 29|10r10 10r54 30|5r10 5r54
+X 15 a-strunb.ads
+42K21*Unbounded 431e26 29|10w18 10r62 30|5w18 5r62
+45R9*Unbounded_String 398e14 29|15r17 30|16r34 101r25 130r26
+60V13*To_Unbounded_String{45R9} 30|87r24 144r43
+66V13*To_String{string} 30|101r65 130r66
+X 17 a-textio.ads
+51K13*Text_IO 509e16 30|4w10 4r54
+X 19 a-uncdea.ads
+20u15*Unchecked_Deallocation 30|7w10 133r17
+X 21 g-socket.ads
+486R9*Inet_Addr_Type 1164e14 29|36r44 30|99r26
+522V13*Inet_Addr{486R9} 30|36r17 114r17 116r17 145r43
+X 22 interfac.ads
+39K9*Interfaces 174e15 30|2r6 2r50 3r6 3r50
+X 23 i-c.ads
+18K20*C 230e17 30|2w17 2r61 3r17 3r61
+35I9*int<integer> 30|22r47 48r42 70r29
+X 24 i-cstrin.ads
+39K22*Strings 105e25 30|3w19 3r63
+49P9*chars_ptr(character) 30|18r40 19r37 23r35 33r17 48r14 67r16
+53p4*Null_Ptr{49P9} 30|50r18 70r45
+61V13*New_String{49P9} 30|33r30
+63U14*Free 30|37r7
+73V13*Value{string} 30|36r27 53r17
+X 26 splitter_lib.ads
+1K9*Splitter_Lib 3e17 29|9r6 12r9 41r5 30|8r6 8r50 10r14 150r5
+X 27 splitter_lib-bsd_sockets.ads
+4K22*BSD_Sockets=4:47 29|9w19 36r32 30|8w19 8r63 99r14
+X 28 splitter_lib-network.ads
+22K22*Network 26|1k9 28|195e26 29|12r22 41r18 30|10r27 150r18
+27R12*Inet_Addr_Type{21|486R9} 29|16r17 39r34 30|31r14 34r17
+X 29 splitter_lib-network-self_address.ads
+12K30*Self_Address 28|22k22 29|41l26 41e38 30|10b35 150l26 150t38
+13R9*IP_Interface 17e17 19r57
+15r10*Name{15|45R9} 30|140r38 144r35
+16r10*Addr{28|27R12} 30|141r38 145r35
+19A9*IP_Configuration(13R9)<integer> 30|11r36 133r41 137r34
+35V13*My_Address{21|486R9} 35>25 30|97b13 120l8 120t18
+35s25 Iface{string} 30|98b7 103r11 115r14 115r37 118r31
+38V13*Addr_Inet_Of{28|27R12} 38>27 30|30b13 39l8 39t20 109r26 118r17 141r46
+38s27 Net_Interface{string} 30|30b27 33r41
+X 30 splitter_lib-network-self_address.adb
+11P9 IP_Config_Access(29|19A9) 13r26 133r59
+13p4 This_Host_IP_Config{11P9} 135m13 137m7 140r10 144r7
+15A9 String_Array(15|45R9)<integer> 82r13 84r16 105r21 129r18
+18V13 Interface_To_IP{24|49P9} 18>30 20b<c,interface_to_ip>22 36r33
+18p30 If_Name{24|49P9}
+22V13 Interface_Name{24|49P9} 22>29 24b<c,interface_name>22 48r27 70r14
+22i29 Interface_Index{23|35I9}
+33p7 If_Name{24|49P9} 36r49 37m13
+34r7 Result{28|27R12} 36m7 38r14
+45V13 Name_Of_Interface{string} 45b13 45>32 55l8 55t25 87r45
+45i32 Interface_Index{natural} 48r46
+48p7 Name{24|49P9} 50r11 53r23
+63V13 Last_Interface_Index{natural} 63b13 75l8 75t28 84r33 128r29
+66i7 Result{natural} 69m7 70r33 71m10 71r20 74r14
+67p7 Name{24|49P9}
+81V13 Available_Interfaces{15A9} 81b13 91l8 91t28 105r37 129r34
+84a7 Result{15A9} 86r16 87m10 90r14
+86i11 I{integer} 87r18 87r64
+101V16 To_S=101:65{string} 108r19 109r40
+101r21 X{15|45R9}
+105a13 Names{15A9} 107r22 108r25 109r46
+107i17 I{integer} 108r32 109r53
+127U14 Refill_IP_Config_Table 127b14 146l8 146t30 149r4
+128i7 Last_Idx{natural} 137r57
+129a7 Names{15A9} 139r16 140r46 141r66
+130V16 To_S=130:66{string} 141r60
+130r22 X{15|45R9}
+132U17 Free[19|20] 135r7
+139i11 I{integer} 140r31 140r53 141r73
+
