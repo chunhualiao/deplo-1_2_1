@@ -1,1 +1,25 @@
 See doc/README.txt
+
+
+The dependency graphs capture parent vs. child packages in Ada
+* Ada package names may have dot in between, naturally split the name to parent child package name portion
+* in dot graph: ltail vs. lhead means the source vs sink of edged is for a subgraph the node belongs to
+
+
+````
+digraph G {  
+    compound=true;  
+      
+    subgraph cluster_1 {  
+        label="parent_a";  
+        node_1[label="child_a"];  
+    }  
+      
+    subgraph cluster_2 {  
+        label="parent_b";   
+        node_2[label="child_b"];  
+    }  
+      
+    node_1 -> node_2 [ltail=cluster_1, lhead=cluster_2];  
+}
+```
