@@ -3,8 +3,13 @@ See doc/README.txt
 
 The dependency graphs capture parent vs. child packages in Ada
 * Ada package names may have dot in between, naturally split the name to parent child package name portion
-* in dot graph: ltail vs. lhead means the source vs sink of edged is for a subgraph the node belongs to
+* in dot graph: ltail vs. lhead means the source vs sink of edged is for a subgraph the node belongs to.  
+   * It means the entire subgraph (parent package) is source of sink, instead of a child node (child package) within the subgraph 
+   * still the individual node is used to indicate the edge. This can be confusing. 
 
+In the example below, 
+* it really means cluster_1 --> cluster_2
+* but node_1 -> node_2 is used instead, annotated with [ltail=cluster_1, lhead=cluster_2] 
 
 ````
 digraph G {  
