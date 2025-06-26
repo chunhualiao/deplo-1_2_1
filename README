@@ -11,6 +11,10 @@ In the example below,
 * it really means cluster_1 --> cluster_2
 * but node_1 -> node_2 is used instead, annotated with [ltail=cluster_1, lhead=cluster_2] 
 
+
+The ltail and lhead attributes are required because DOT's compound graph syntax does not support direct cluster-to-cluster edges . 
+In DOT format, edges can only connect individual nodes, not subgraphs/clusters directly 
+
 ````
 digraph G {  
     compound=true;  
@@ -28,3 +32,12 @@ digraph G {
     node_1 -> node_2 [ltail=cluster_1, lhead=cluster_2];  
 }
 ```
+
+DePlo's Find_Leaf function selects specific node when multiple nodes exist within a cluster for cluster-to-cluster edge representation.
+
+DePlo uses a deterministic selection strategy with a clear preference order when choosing which leaf node to use for cluster edges output.adb:187-208 .
+
+Selection Algorithm
+* The Find_Leaf function follows this priority order:
+* Direct children first: It searches through all direct children of the cluster and returns the first leaf node found among them output.adb:197-202
+* Recursive fallback: If no direct children are leaf nodes, it recursively calls Find_Leaf on the first child in the children array output.adb:204-205
